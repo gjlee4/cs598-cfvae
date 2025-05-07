@@ -10,7 +10,7 @@ The CF-VAE model combines a Variational Autoencoder (VAE) with a multi-task pred
 
 The implementation uses the MIMIC-III dataset (not included in the repository) to:
 
-- Extract ICU stays of patients ≥18 years old with length of stay ≥54 hours
+- Extract ICU stays of patients ≥18 years old with length of stay ≥48 hours
 - Process vital signs and lab measurements as time series features
 - Define interventions based on vasopressor administration in a future time window
 
