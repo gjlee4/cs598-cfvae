@@ -22,6 +22,11 @@ The implementation uses the MIMIC-III dataset (not included in the repository) t
 - `cfvae_best.pt`: Pre-trained CF-VAE model weights
 - `predictor_multitask.pt`: Pre-trained multi-task prediction model weights
 
+## How to Run
+To run the code, the notebooks `replicating_cfvae.ipynb` and `cfvae_on_mnist_extension.ipynb` notebooks can be downloaded and uploaded to Colab, where you can run with a T4 GPU instance or similar. Alternatively, you may need to install the required libraries, which are shared below.
+
+For the `cfvae_on_mnist_extension.ipynb` notebook, make sure that you have your `HF_TOKEN` set in your environment in order to use the HuggingFace APIs, which is used to download the dataset.
+
 ## Installation
 
 ```bash
